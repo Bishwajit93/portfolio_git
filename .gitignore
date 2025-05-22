@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Environment & Secrets
+.env
+*.env
+portfolio-env/
+.venv/
+venv/
+
+# Django
+*.log
+media/
+staticfiles/
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Migrations (optional)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# System
+.DS_Store
